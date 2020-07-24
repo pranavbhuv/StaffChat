@@ -1,0 +1,7 @@
+# Permission for Staff Chat
+perms: "chat.staffchat"
+
+# Use § for colors!
+entersc: "You have joined staff chat! Please run /sc to leave it!"
+leavesc: "You have left staff chat! Please run /sc to join it again!"
+
