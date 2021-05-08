@@ -71,7 +71,6 @@ class Main extends PluginBase implements Listener
         $sender = $event->getPlayer();
         if ($event->isCancelled())
         {
-            /** In case player stops */
             return;
         }
         if (!(isset($this->enabled[strtolower($event->getPlayer()->getDisplayName())])))
@@ -83,7 +82,6 @@ class Main extends PluginBase implements Listener
         if (!(isset($msg)))
         {
             return;
-            /** Event player says nothing */
         }
 
         foreach ($this->getServer()->getOnlinePlayers() as $onlinePlayer)
