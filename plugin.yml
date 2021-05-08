@@ -2,7 +2,7 @@
 name: StaffChat
 version: 0.0.1
 main: twiqk\StaffChat\Main
-api: 3.11.6
+api: 3.0.0
 
 commands:
   sc:
